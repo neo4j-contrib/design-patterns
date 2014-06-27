@@ -13,6 +13,9 @@ See the link:./?github-neo4j-contrib%2Fdesign-patterns%2F%2Fmeta%2FFormat.adoc[p
 link:./?github-neo4j-contrib%2Fdesign-patterns%2F%2Fmeta%2FTemplate.adoc[pattern template]
 pages for information (eg, ground rules, hints) on creating good descriptions.
 
+The Neo4j Design Patterns project is located at https://github.com/neo4j-contrib/design-patterns.
+You can help out by suggesting changes and adding new pages.
+
 == Pattern Index
 
 === Data Modeling

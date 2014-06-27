@@ -1,6 +1,6 @@
 = Graph Databse Design Patterns
 
 This repositor contains the pages published at
-http://www.neo4j.org/graphgist?github-neo4j-contrib%2Fdesign-patterns%2F%2FDesign-Patterns.adoc[Design Patterns].
+http://gist.neo4j.org/?github-neo4j-contrib%2Fdesign-patterns%2F%2FDesign-Patterns.adoc[Design Patterns].
 
 
