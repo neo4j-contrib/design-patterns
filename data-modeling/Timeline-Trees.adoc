@@ -21,7 +21,7 @@ The date (and possibly time) for each event is known.
 
 Structure::
 
-image::https://raw.githubusercontent.com/neo4j-contrib/design-patterns/master/data-modeling/images/Timeline-Tree.png[diagram of Timeline Tree]
+image:https://raw.githubusercontent.com/neo4j-contrib/design-patterns/master/data-modeling/images/Timeline-Tree.png[diagram of Timeline Tree]
 
 Participants::
 

@@ -20,7 +20,7 @@ The nodes have a known, unambiguous order.
 
 Structure::
 
-image::https://raw.githubusercontent.com/neo4j-contrib/design-patterns/master/data-modeling/images/Sequence-List.png[diagram of Sequence List]
+image:https://raw.githubusercontent.com/neo4j-contrib/design-patterns/master/data-modeling/images/Sequence-List.png[diagram of Sequence List]
 
 Participants::
 
