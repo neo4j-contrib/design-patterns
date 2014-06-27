@@ -1,53 +1,53 @@
 = Sequence Lists (Traversal)
 
-== Intent
+Intent::
 
 Sequence Lists facilitate traversal of ordered nodes (eg, time-ordered sets of events).
 
-== Also Known As
+Also Known As::
 
 NA
 
-== Motivation
+Motivation::
 
 We have a sequence of nodes (eg, meetings).
 We want to be able to step directly from a given node
 to the following (or previous) node.
 
-== Applicability
+Applicability::
 
 The nodes have a known, unambiguous order.
 
-== Structure
+Structure::
 
-image::Sequence-List.png[diagram of Sequence List]
+image::https://raw.githubusercontent.com/neo4j-contrib/design-patterns/master/data-modeling/images/Sequence-List.png[diagram of Sequence List]
 
-== Participants
+Participants::
 
 Every node in the sequence
 
-== Collaboration
+Collaboration::
 
 Each node in the sequence has a relation to its predecessor and successor nodes, if any.
 
-== Consequences
+Consequences::
 
 No additional nodes are created.
 Assuming that the sequence has N nodes, N-1 edges are created.
 
-== Implementation
+Implementation::
 
 TODO: A description of an implementation of the pattern; the solution part of the pattern.
 
-== Sample Code
+Sample Code::
 
 TODO: An illustration of how the pattern can be used in a programming language.
 
-== Known Uses
+Known Uses::
 
 TODO: Examples of real usages of the pattern.
 
-== Related Patterns
+Related Patterns::
 
 TODO: Other patterns that have some relationship with the pattern;
 discussion of the differences between the pattern and similar patterns.

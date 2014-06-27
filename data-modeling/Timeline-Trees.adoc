@@ -1,57 +1,57 @@
 = Timeline Trees (Indexing)
 
-== Intent
+Intent::
 
 Timeline Trees provide tree-structured indexes for timelines
 (ie, time-ordered sets of events), allowing them to be aggregated, searched, etc.
 
-== Also Known As
+Also Known As::
 
 NA
 
-== Motivation
+Motivation::
 
 We have a sequence of events (eg, meetings).
 We want to be able to find all of the meetings in a given month,
 count the meetings in a given year, etc.
 
-== Applicability
+Applicability::
 
 The date (and possibly time) for each event is known.
 
-== Structure
+Structure::
 
-image::Timeline_Tree.png[diagram of Timeline Tree]
+image::https://raw.githubusercontent.com/neo4j-contrib/design-patterns/master/data-modeling/images/Timeline-Tree.png[diagram of Timeline Tree]
 
-== Participants
+Participants::
 
 Nodes for the tree itself, temporal nodes (eg, specific years, months, days)
 and time-bound event nodes.
 
-== Collaboration
+Collaboration::
 
 Each temporal node (eg, "June, 2014") has a relation from its parent (eg, "2014")
 and relations to its children (eg, "June 21, 2014"), if any.
 The bottom-level temporal node has relations to event nodes (eg, "GraphDB Meetup"), if any
 
-== Consequences
+Consequences::
 
 A path of temporal nodes and connecting edges must be created to each event node.
 Typically, many of these nodes and edges will be shared.
 
-== Implementation
+Implementation::
 
 TODO: A description of an implementation of the pattern; the solution part of the pattern.
 
-== Sample Code
+Sample Code::
 
 TODO: An illustration of how the pattern can be used in a programming language.
 
-== Known Uses
+Known Uses::
 
 TODO: Examples of real usages of the pattern.
 
-== Related Patterns
+Related Patterns::
 
 TODO: Other patterns that have some relationship with the pattern;
 discussion of the differences between the pattern and similar patterns.

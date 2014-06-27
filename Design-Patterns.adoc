@@ -9,17 +9,17 @@ Although many of these patterns are derived from graph theory and/or computer sc
 This is an early attempt to recognize and describe some of these patterns.
 If you like the idea, please help me to improve these pages, create new ones, and cross-reference them all to relevant GraphGists.
 
-See the link:./?github-neo4j-contrib//design-patterns/meta/Format.adoc[pattern format] and 
-link:./?github-neo4j-contrib//design-patterns/meta/Template.adoc[pattern template]
+See the link:./?github-neo4j-contrib%2Fdesign-patterns%2F%2Fmeta%2FFormat.adoc[pattern format] and 
+link:./?github-neo4j-contrib%2Fdesign-patterns%2F%2Fmeta%2FTemplate.adoc[pattern template]
 pages for information (eg, ground rules, hints) on creating good descriptions.
 
 == Pattern Index
 
 === Data Modeling
 
-* link:./?github-neo4j-contrib//design-patterns/data-modeling/Sequence-Lists.adoc[Sequence Lists]
+* link:./?github-neo4j-contrib%2Fdesign-patterns%2F%2Fdata-modeling%2FSequence-Lists.adoc[Sequence Lists]
 
-* link:./?github-neo4j-contrib//design-patterns/data-modeling/Timeline-Trees.adoc[Timeline Trees]
+* link:./?github-neo4j-contrib%2Fdesign-patterns%2F%2Fdata-modeling%2FTimeline-Trees.adoc[Timeline Trees]
 
 
 === Query Formulation
