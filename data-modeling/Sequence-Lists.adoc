@@ -1,0 +1,54 @@
+= Sequence Lists (Traversal)
+
+== Intent
+
+Sequence Lists facilitate traversal of ordered nodes (eg, time-ordered sets of events).
+
+== Also Known As
+
+NA
+
+== Motivation
+
+We have a sequence of nodes (eg, meetings).
+We want to be able to step directly from a given node
+to the following (or previous) node.
+
+== Applicability
+
+The nodes have a known, unambiguous order.
+
+== Structure
+
+image::Sequence-List.png[diagram of Sequence List]
+
+== Participants
+
+Every node in the sequence
+
+== Collaboration
+
+Each node in the sequence has a relation to its predecessor and successor nodes, if any.
+
+== Consequences
+
+No additional nodes are created.
+Assuming that the sequence has N nodes, N-1 edges are created.
+
+== Implementation
+
+TODO: A description of an implementation of the pattern; the solution part of the pattern.
+
+== Sample Code
+
+TODO: An illustration of how the pattern can be used in a programming language.
+
+== Known Uses
+
+TODO: Examples of real usages of the pattern.
+
+== Related Patterns
+
+TODO: Other patterns that have some relationship with the pattern;
+discussion of the differences between the pattern and similar patterns.
+

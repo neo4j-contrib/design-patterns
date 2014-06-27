@@ -1,0 +1,27 @@
+= Design Patterns
+
+https://en.wikipedia.org/wiki/Design_pattern[Design patterns]
+have been recognized in a number of disciplines, including architecture and 
+https://en.wikipedia.org/wiki/Software_design_pattern[computer software].
+So, it isn't surprising that there are some common patterns to be found in (say) data modeling and query formulation for graph databases.
+Although many of these patterns are derived from graph theory and/or computer science, their motivation and implementation in Neo4j makes this more than a catalog of data structures and graph traversal algorithms.
+
+This is an early attempt to recognize and describe some of these patterns.
+If you like the idea, please help me to improve these pages, create new ones, and cross-reference them all to relevant GraphGists.
+
+See the link:./?github-neo4j-contrib//design-patterns/meta/Format.adoc[pattern format] and 
+link:./?github-neo4j-contrib//design-patterns/meta/Template.adoc[pattern template]
+pages for information (eg, ground rules, hints) on creating good descriptions.
+
+== Pattern Index
+
+=== Data Modeling
+
+* link:./?github-neo4j-contrib//design-patterns/data-modeling/Sequence-Lists.adoc[Sequence Lists]
+
+* link:./?github-neo4j-contrib//design-patterns/data-modeling/Timeline-Trees.adoc[Timeline Trees]
+
+
+=== Query Formulation
+
+
