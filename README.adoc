@@ -1,4 +1,4 @@
-= Graph Databse Design Patterns
+= Graph Database Design Patterns
 
 This repositor contains the pages published at
 http://gist.neo4j.org/?github-neo4j-contrib%2Fdesign-patterns%2F%2FDesign-Patterns.adoc[Design Patterns].
